@@ -21,12 +21,13 @@ This project was completed in fulfillment of the requirements of Productivity an
 | 02_outdata/     | Contains all cleaned data files                     |
 | 03_figures/     | Contains all plots and figures of the data          |
 | 04_manuscripts/ | Contains all versions of manuscript drafts          |
+| 04_manuscripts/rendered | Contains final version of manuscript in futureproof format       |
 
 ## File naming conventions:
 
 | File Type                   | Naming Convention                                        |
 | --------------------------- | -------------------------------------------------------- |
-| Lab reports and manuscripts | LastName_Project_File-contents_Version.file-type         |
+| Data | LastName_Project_Data-file-description_Version.file-type         |
 | Figures and plots           | LastName_Project_Figure-title_Version.file-type          |
 | Analysis                    | LastName_Project_Analysis_Version.file-type              |
 | Data                        | LastName_Project_Data-file-description_Version.file-type |
