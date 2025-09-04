@@ -1,2 +1,2 @@
 # fiddler_crab_project
-This project was completed for the course, Productivity and Reproducibility in Ecology and Evolution.
+This project completed in fulfillment of the requirements of Productivity and Reproducibility in Ecology and Evolution 2025.
