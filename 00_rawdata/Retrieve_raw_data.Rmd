@@ -1,0 +1,22 @@
+---
+title: "Retrieve rawdata"
+author: "Sherry Du"
+date: "2025-09-13"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Raw Data
+
+Retrieve raw data from lterdatasampler
+
+```{r rawdata}
+library(lterdatasampler)
+
+getwd()
+
+write.csv(pie_crab,"./00_rawdata/pie_crab.csv", row.names = FALSE)
+```
