@@ -1,0 +1,26 @@
+---
+title: "Make figures"
+author: "Sherry Du"
+date: "2025-09-13"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Packages
+
+```{r}
+library(ggplot2)
+```
+
+
+## Make Figures
+
+```{r figures}
+getwd()
+
+```
+
+
