@@ -27,7 +27,7 @@ Markdown makes formatting easy:
 - **Bold** with '**...**'
 - Lists with '-' or '1.'
 
-Add a figure: ![figcaption](./ms_figures/fiddlercrab_plot.png).
+Add a figure: ![figcaption](./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png).
 
 # Methods
 Here is an in-text citation [@horstLterdatasamplerEducationalDataset2023]
@@ -43,7 +43,7 @@ getwd()
 
 a <- ggplot(data=pie_crab) +geom_point(aes(x=latitude,y=size,color=site))
 
-ggsave("./ms_figures/fiddlercrab_plot.png", a)
+ggsave("./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png", a)
 ```
 
 
