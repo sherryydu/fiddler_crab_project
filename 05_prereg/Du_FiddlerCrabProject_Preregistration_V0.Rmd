@@ -26,13 +26,7 @@ Changes in Atlantic marsh fiddler crab (*Minuca pugnax*) body size across latitu
 
 ## Description
 
-```{=html}
-<!-- Please give a brief description of your study, including some background, the purpose of the of the study, or broad research questions. The description should be no longer than the length of an abstract. It can give some context for the proposed study, but great detail is not needed here for your preregistration.
-
-Example: Though there is strong evidence to suggest that sugar affects taste preferences, the effect has never been demonstrated in brownies. Therefore, we will measure taste preference for four different levels of sugar concentration in a standard brownie recipe to determine if the effect exists in this pastry. -->
-```
-
-Enter your response here.
+Bergmann's rule is a phenomenon that explains differences in body size across latitude within the same taxa. Specifically, this rule states that individuals at higher latitudes are bigger than those at lower latitudes. However, little is known about whether this applies to Atlantic marsh fiddler crabs (*Minuca pugnax*). The purpose of this project is to answer the following question: How does Atlantic marsh fiddler crab (*Minuca pugnax*) body size change across latitude?
 
 ## Hypotheses
 
@@ -42,7 +36,7 @@ If latitude affects body size, I expect that Atlantic marsh fidder crabs will be
 
 ## Study type
 
-**Observational Study**. Data is collected from study subjects that are not randomly assigned to a treatment. This includes surveys, natural experiments, and regression discontinuity designs.
+**Observational Study**. This project is an observational study as we do not manipulate any variables. We are merely observing crabs at different latitudes in the Plum Island LTER. This data was collected from https://lter.github.io/lterdatasampler/articles/pie_crab_vignette.html.
 
 ## Blinding
 
@@ -50,55 +44,23 @@ No blinding is involved in this study as this is on crabs.
 
 ## Study design
 
-```{=html}
-<!-- Describe your study design. Examples include two-group, factorial, randomized block, and repeated measures. Is it a between (unpaired), within-subject (paired), or mixed design? Describe any counterbalancing required. Typical study designs for observation studies include cohort, cross sectional, and case-control studies.
+Source: https://lter.github.io/lterdatasampler/articles/pie_crab_vignette.html
 
-This question has a variety of possible answers. The key is for a researcher to be as detailed as is necessary given the specifics of their design. Be careful to determine if every parameter has been specified in the description of the study design. There may be some overlap between this question and the following questions. That is OK, as long as sufficient detail is given in one of the areas to provide all of the requested information. For example, if the study design describes a complete factorial, 2 X 3 design and the treatments and levels are specified previously, you do not have to repeat that information.
-
-Example: We have a between subjects design with 1 factor (sugar by mass) with 4 levels. -->
-```
-
-Enter your response here.
+(If we were to make this study PRIOR to registration): Because this is essentially a survey, we would be conducting a cross-sectional study. The outcome that we would measure is body size, and the exposure is latitude. These two variables would be measured at the same time (i.e., present).
 
 ## Randomization
 
-```{=html}
-<!-- If you are doing a randomized study, how will you randomize, and at what level? Typical randomization techniques include: simple, block, stratified, and adaptive covariate randomization. If randomization is required for the study, the method should be specified here, not simply the source of random numbers.
-
-Example: We will use block randomization, where each participant will be randomly assigned to one of the four equally sized, predetermined blocks. The random number list used to create these four blocks will be created using the web applications available at https://random.org. -->
-```
-
-Enter your response here.
+We will try to randomize the crabs being sampled at each site.
 
 # Sampling Plan
 
-<!-- In this section we’ll ask you to describe how you plan to collect samples, as well as the number of samples you plan to collect and your rationale for this decision. Please keep in mind that the data described in this section should be the actual data used for analysis, so if you are using a subset of a larger dataset, please describe the subset that will actually be used in your study. -->
-
 ## Existing data
-
-<!-- Preregistration is designed to make clear the distinction between confirmatory tests, specified prior to seeing the data, and exploratory analyses conducted after observing the data. Therefore, creating a research plan in which existing data will be used presents unique challenges. Please select the description that best describes your situation. Please do not hesitate to contact us if you have questions about how to answer this question (prereg@cos.io). -->
-
-**Registration prior to creation of data**. As of the date of submission of this research plan for preregistration, the data have not yet been collected, created, or realized.
-
-**Registration prior to any human observation of the data**. As of the date of submission, the data exist but have not yet been quantified, constructed, observed, or reported by anyone - including individuals that are not associated with the proposed study. Examples include museum specimens that have not been measured and data that have been collected by non-human collectors and are inaccessible.
-
-**Registration prior to accessing the data**. As of the date of submission, the data exist, but have not been accessed by you or your collaborators. Commonly, this includes data that has been collected by another researcher or institution.
 
 **Registration prior to analysis of the data**. As of the date of submission, the data exist and you have accessed it, though no analysis has been conducted related to the research plan (including calculation of summary statistics). A common situation for this scenario when a large dataset exists that is used for many different studies over time, or when a data set is randomly split into a sample for exploratory analyses, and the other section of data is reserved for later confirmatory data analysis.
 
-**Registration following analysis of the data**. As of the date of submission, you have accessed and analyzed some of the data relevant to the research plan. This includes preliminary analysis of variables, calculation of descriptive statistics, and observation of data distributions. Please see <https://cos.io/prereg> for more information.
-
 ## Explanation of existing data
 
-```{=html}
-<!-- If you indicate that you will be using some data that already exist in this study, please describe the steps you have taken to assure that you are unaware of any patterns or summary statistics in the data. This may include an explanation of how access to the data has been limited, who has observed the data, or how you have avoided observing any analysis of the specific data you will use in your study.
-
-An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point.
-
-Example: An appropriate instance of using existing data would be collecting a sample size much larger than is required for the study, using a small portion of it to conduct exploratory analysis, and then registering one particular analysis that showed promising results. After registration, conduct the specified analysis on that part of the dataset that had not been investigated by the researcher up to that point. -->
-```
-
-Enter your response here.
+To avoid exposure to any patterns or summary statistics about this data, I have avoided analyzing the body size parameters against latitude that will be used in my study.
 
 ## Data collection procedures
 
