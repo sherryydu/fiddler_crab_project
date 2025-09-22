@@ -3,7 +3,7 @@ title: "Investigating fiddler crabs"
 author: "Sherry Du"
 date: "2025-09-11"
 output: pdf_document
-bibliography: references.bib
+bibliography: ["references.bib","grateful-refs.bib"]
 csl: ecology.csl
 ---
 
@@ -20,39 +20,38 @@ library(ggplot2)
 
 # Introduction
 
-This is my manuscript. I am writing text in **Markdown format.
-
-Markdown makes formatting easy:
-- *Italics* with '*...*'
-- **Bold** with '**...**'
-- Lists with '-' or '1.'
-
-Add a figure: ![figcaption](./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png).
+This is about Atlantic marsh fiddler crab (*Minuca pugnax*) study based in the Plum Island Ecosystem LTER network [@johnsonFiddlerCrabMinuca2019].
 
 # Methods
+
 Here is an in-text citation [@horstLterdatasamplerEducationalDataset2023]
 
 ## Field sites
 
+The field site was in the Atlantic coast of the United States [@johnsonFiddlerCrabMinuca2019].
 
 ## Data analysis
-```{r}
+
+We used @base's RStudio and the multiple \$ packages for data analysis [@janitor; @renv; @tidyverse].
+
+```{r message=FALSE,warning=FALSE}
 View(pie_crab)
 
 getwd()
 
 a <- ggplot(data=pie_crab) +geom_point(aes(x=latitude,y=size,color=site))
+```
 
+# Results
+
+```{r}
 ggsave("./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png", a)
 ```
 
-
-# Results
-```{r}
-
-
-```
+![Fiddler crab body size across latitude and site](./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png).
 
 # Discussion
+
+Overall, we found that as latitude increases, the size of the crabs also increases.
 
 # References
