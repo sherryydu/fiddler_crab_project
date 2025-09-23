@@ -1,0 +1,6 @@
+---
+title: "README"
+output: html_document
+---
+
+This folder contains the R script to help acquire the raw data from the R package (lterdatasampler)

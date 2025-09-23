@@ -3,3 +3,4 @@ title: "README"
 output: html_document
 ---
 
+This folder contains raw data of the Fiddler crab project in .csv format. It was collected in summer 2016. 25-37 adult male Atlantic fiddler crabs were collected across 13 marshes in the Atlantic coast of the United States. They were measured for body size and their latitude was recorded.

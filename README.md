@@ -4,7 +4,7 @@
 
 **Created by:** Sherry Du
 
-**Date updated:** Sept 4, 2025
+**Date updated:** Sept 22, 2025
 
 **Updated by:** Sherry Du
 
@@ -22,6 +22,7 @@ This project was completed in fulfillment of the requirements of Productivity an
 | 03_figures/     | Contains all plots and figures of the data          |
 | 04_manuscripts/ | Contains all versions of manuscript drafts          |
 | 04_manuscripts/rendered | Contains final version of manuscript in futureproof format       |
+| 05_prereg | Contains pre-registration files       |
 
 ## File naming conventions:
 
@@ -30,4 +31,5 @@ This project was completed in fulfillment of the requirements of Productivity an
 | Data | LastName_Project_Data-file-description_Version.file-type         |
 | Figures and plots           | LastName_Project_Figure-title_Version.file-type          |
 | Analysis                    | LastName_Project_Analysis_Version.file-type              |
-| Data                        | LastName_Project_Data-file-description_Version.file-type |
+| Manuscript                       | LastName_Project_Manuscript_Version.file-type |
+| Pre-registration                       | LastName_Project_Preregistration_Version.file-type |

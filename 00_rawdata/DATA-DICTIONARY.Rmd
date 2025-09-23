@@ -3,3 +3,36 @@ title: "DATA-DICTIONARY"
 output: html_document
 ---
 
+**Date Created:** September 12, 2025
+
+**Created by:** Sherry Du
+
+**Date Updated:** September 22, 2025
+
+**Updated by:** Sherry Du
+
+These data were collected by David Johnson.
+
+**Description of the data: Du_FiddlerCrabProject_Data-raw_V0.csv**
+
+This file contains multiple variables related to observation of fiddler crabs from 13 marshes acros the Atlantic coastal USA in July - August 2016. This data has been cleaned, but not been analyzed.
+
+**Variable descriptions:**
+
+* *date:* datetime variable (ISO standard) describing the time of collection of each crab.
+
+* *latitude:* continuous variable describing the location of each sampled crab.
+
+* *site:* categorical variable of the acronym of the site of where each crab was sampled.
+
+* *size:* continuous variable showing the body size of each crab.
+
+* *air_temp:* continuous variable showing the air temperature (degrees Celsius) at the time of collection.
+
+* *air_temp_sd:* continuous variable showing the standard deviatino of the air temperature (degrees Celsius) at the time of collection.
+
+* *water_temp:* continuous variable showing the water temperature (degrees Celsius) at the time of collection.
+
+* *water_temp_sd:* continuous variable showing the standard deviatino of the water temperature (degrees Celsius) at the time of collection.
+
+* *name:* categorical variable showing the full name of the site where each crab was sampled.
