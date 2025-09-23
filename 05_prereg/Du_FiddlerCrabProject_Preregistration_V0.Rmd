@@ -5,15 +5,14 @@ date            : "`r Sys.setlocale('LC_TIME', 'C'); format(Sys.time(), '%d\\\\.
 
 author: 
   - name        : Sherry Du
-    affiliation : "1,2"
+    affiliation : 1
 
 affiliation:
   - id          : 1
-    institution : University of Toronto Mississauga, Department of Biology
-  - id          : 2
     institution : University of Toronto, Department of Ecology and Evolutionary Biology
 
 output: prereg::prereg_pdf
+
 ---
 
 # Study Information
@@ -64,15 +63,7 @@ To avoid exposure to any patterns or summary statistics about this data, I have 
 
 ## Data collection procedures
 
-```{=html}
-<!-- Please describe the process by which you will collect your data. If you are using human subjects, this should include the population from which you obtain subjects, recruitment efforts, payment for participation, how subjects will be selected for eligibility from the initial pool (e.g. inclusion and exclusion rules), and your study timeline. For studies that donÍt include human subjects, include information about how you will collect samples, duration of data gathering efforts, source or location of samples, or batch numbers you will use.
-
-The answer to this question requires a specific set of instructions so that another person could repeat the data collection procedures and recreate the study population. Alternatively, if the study population would be unable to be reproduced because it relies on a specific set of circumstances unlikely to be recreated (e.g., a community of people from a specific time and location), the criteria and methods for creating the group and the rationale for this unique set of subjects should be clear.
-
-Example: Participants will be recruited through advertisements at local pastry shops. Participants will be paid $10 for agreeing to participate (raised to $30 if our sample size is not reached within 15 days of beginning recruitment). Participants must be at least 18 years old and be able to eat the ingredients of the pastries. -->
-```
-
-Enter your response here.
+I will sample 25-37 adult male crabs each at 13 marshes varying across 12 degrees in latitude. This will occur from July 24 - August 13, 2026 across Florida and Massachusetts, USA on the Atlantic coast. We will measure their body size.
 
 ## Sample size
 
@@ -82,7 +73,7 @@ Enter your response here.
 Example: Our target sample size is 280 participants. We will attempt to recruit up to 320, assuming that not all will complete the total task. -->
 ```
 
-Enter your response here.
+The target sample size is 25-37 adult male crabs per each marsh (i.e., 13 marshes). Therefore, there should be approximately 325 - 481 crabs in total.
 
 ## Sample size rationale
 
@@ -92,7 +83,7 @@ Enter your response here.
 Example: We used the software program G*Power to conduct a power analysis. Our goal was to obtain .95 power to detect a medium effect size of .25 at the standard .05 alpha error probability. -->
 ```
 
-Enter your response here.
+We haven't performed a power analysis yet, but we will using RStudio.
 
 ## Stopping rule
 
@@ -104,7 +95,7 @@ You may specify a stopping rule based on p-values only in the specific case of s
 Example: We will post participant sign-up slots by week on the preceding Friday night, with 20 spots posted per week. We will post 20 new slots each week if, on that Friday night, we are below 320 participants. -->
 ```
 
-Enter your response here.
+We will continue sampling until we reach a maximum of 37 crabs due to sampling effort.
 
 # Variables
 
@@ -118,7 +109,7 @@ Enter your response here.
 Example: We manipulated the percentage of sugar by mass added to brownies. The four levels of this categorical variable are: 15%, 20%, 25%, or 40% cane sugar by mass. -->
 ```
 
-Enter your response here.
+We did not manipulate any variables as this is an observational study.
 
 ## Measured variables
 
@@ -130,7 +121,7 @@ Observational studies and meta-analyses will include only measured variables. As
 Example: The single outcome variable will be the perceived tastiness of the single brownie each participant will eat. We will measure this by asking participants ‘How much did you enjoy eating the brownie’ (on a scale of 1-7, 1 being 'not at all', 7 being 'a great deal') and 'How good did the brownie taste' (on a scale of 1-7, 1 being 'very bad', 7 being 'very good'). -->
 ```
 
-Enter your response here.
+We will measure latitude as our predictor variable in WGS84, and we will also measure body size of adult male fiddler crabs as our response/outcome. These are both continuous variables.
 
 ## Indices
 
@@ -142,7 +133,7 @@ If you are using multiple pieces of data to construct a single variable, how wil
 Example: We will take the mean of the two questions above to create a single measure of 'brownie enjoyment.'  -->
 ```
 
-Enter your response here.
+We will not being using any indices for this study.
 
 # Analysis Plan
 
@@ -165,7 +156,7 @@ This is perhaps the most important and most complicated question within the prer
 Example:  We will use a one-way between subjects ANOVA to analyze our results. The manipulated, categorical independent variable is 'sugar' whereas the dependent variable is our taste index. -->
 ```
 
-Enter your response here.
+To test for the effect of latitude on body size, we will use a linear regression with a normal distribution. The predictor variable in this model will be latitude, and the dependent/response variable will be body size.
 
 ## Transformations
 
@@ -175,7 +166,7 @@ Enter your response here.
 Example: The "Effect of sugar on brownie tastiness" does not require any additional transformations. However, if it were using a regression analysis and each level of sweet had been categorically described (e.g. not sweet, somewhat sweet, sweet, and very sweet), 'sweet' could be dummy coded with 'not sweet' as the reference category. -->
 ```
 
-Enter your response here.
+We will not be transforming out data.
 
 ## Inference criteria
 
@@ -195,7 +186,7 @@ Example: We will use the standard p<.05 criteria for determining if the ANOVA an
 Example: No checks will be performed to determine eligibility for inclusion besides verification that each subject answered each of the three tastiness indices. Outliers will be included in the analysis. -->
 ```
 
-Enter your response here.
+We will use Cook's Distance to determine if there are any outliers. If there are outliers, we will report both the linear regression outputs when outlier(s) are removed and are not removed for transparency.
 
 ## Missing data
 
@@ -205,7 +196,7 @@ Enter your response here.
 Example: If a subject does not complete any of the three indices of tastiness, that subject will not be included in the analysis. -->
 ```
 
-Enter your response here.
+Any fiddler crab that was collected, but does not have an associated latitude body size will be excluded from analyses.
 
 ## Exploratory analyses (optional)
 
@@ -215,9 +206,11 @@ Enter your response here.
 Example: We expect that certain demographic traits may be related to taste preferences. Therefore, we will look for relationships between demographic variables (age, gender, income, and marital status) and the primary outcome measures of taste preferences. -->
 ```
 
-Enter your response here.
+We will not perform exploratory analyses to avoid bias.
 
 # References
+
+https://lter.github.io/lterdatasampler/articles/pie_crab_vignette.html
 
 ## 
 
