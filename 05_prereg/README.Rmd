@@ -1,6 +1,0 @@
----
-title: "README"
-output: html_document
----
-
-This folder contains R markdowns and rendered PDFs of the Pre-registration.

@@ -1,6 +1,0 @@
----
-title: "README"
-output: html_document
----
-
-This folder contains the R markdown file to create/generate figures (drafts and final figures).
