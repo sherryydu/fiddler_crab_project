@@ -7,32 +7,38 @@ output: html_document
 
 **Created by:** Sherry Du
 
-**Date Updated:** September 22, 2025
+**Date Updated:** September 25, 2025
 
 **Updated by:** Sherry Du
 
-These data were collected by David Johnson.
+These data were collected by Dr. David Johnson from the Virginia Institute of Marine Science.
 
 **Description of the data: Du_FiddlerCrabProject_Data-raw_V0.csv**
 
-This file contains multiple variables related to observation of fiddler crabs from 13 marshes acros the Atlantic coastal USA in July - August 2016. This data has been cleaned, but not been analyzed.
+This file contains 9 variables and 392 observations to fiddler crabs from 13 marshes across the Atlantic coastal USA in July - August 2016. This data has been cleaned, but not been analyzed.
 
 **Variable descriptions:**
 
-* *date:* datetime variable (ISO standard) describing the time of collection of each crab.
+* *date:* date (ISO standard: YYYY-MM-DD) describing the time of collection of each crab.
 
-* *latitude:* continuous variable describing the location of each sampled crab.
+* *latitude:* continuous numeric value describing the location of each sampled crab (degree).
 
-* *site:* categorical variable of the acronym of the site of where each crab was sampled.
+* *site:* categorical variable of the acronym of the research site of where each crab was sampled; (abbreviation of site name); GTM=Guana Tolomoto Matanzas NERR | SI=Sapelo Island NERR |NIB=North Inlet Winyah Bay NERR | ZI=Zeke's Island NERR | RC=Rachel Carson NERR | VCR=Virginia Coastal Reserve LTER | DB=Delaware Bay NERR |JC=Jacques Cousteau NERR | CT=Sixpenny Island - Connecticut |NB=Narragansett Bay NERR | CC=Cape Cod | BC=Bare Cove Park | PIE=Plum Island Estuary - West Creek.
 
-* *size:* continuous variable showing the body size of each crab.
+* *size:* continuous numeric value showing the carapace width of each crab (millimeter).
 
-* *air_temp:* continuous variable showing the air temperature (degrees Celsius) at the time of collection.
+* *air_temp:* continuous numeric value showing the mean annual air temperature (degrees Celsius).
 
-* *air_temp_sd:* continuous variable showing the standard deviatino of the air temperature (degrees Celsius) at the time of collection.
+* *air_temp_sd:* continuous numeric value showing the standard deviation of the mean annual air temperature (degrees Celsius).
 
-* *water_temp:* continuous variable showing the water temperature (degrees Celsius) at the time of collection.
+* *water_temp:* continuous numeric value showing the mean annual water temperature degrees Celsius), water temperature was collected at the surface (i.e., <1 meter).
 
-* *water_temp_sd:* continuous variable showing the standard deviatino of the water temperature (degrees Celsius) at the time of collection.
+* *water_temp_sd:* continuous numeric value showing the standard deviation of the mean annual water temperature (degrees Celsius).
 
-* *name:* categorical variable showing the full name of the site where each crab was sampled.
+* *name:* categorical variable showing the full name of the research site; LTER, Long-Term Ecological Research site; NERR, National Estuarine Research Reserve.
+
+**Metadata information source:**
+
+Johnson, D. 2019. Fiddler crab body size in salt marshes from Florida to Massachusetts, USA at PIE and VCR LTER and NOAA NERR sites during summer 2016. ver 1. Environmental Data Initiative. doi:10.6073/pasta/4c27d2e778d3325d3830a5142e3839bb
+
+For more information, please also see https://lter.github.io/lterdatasampler/reference/pie_crab.html.
