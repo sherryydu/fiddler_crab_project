@@ -3,8 +3,10 @@ title: "Investigating fiddler crabs"
 author: "Sherry Du"
 date: "2025-09-11"
 output: pdf_document
-bibliography: ["references.bib","grateful-refs.bib"]
-csl: ecology.csl
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "rendered") })
+bibliography: ["bibliography/references.bib","bibliography/grateful-refs.bib"]
+csl: "bibliography/ecology.csl"
 ---
 
 ```{r setup, include=FALSE}

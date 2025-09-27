@@ -3,4 +3,8 @@ title: "README"
 output: html_document
 ---
 
-This folder contains raw data of the Fiddler crab project in .csv format. It was collected in summer 2016. 25-37 adult male Atlantic fiddler crabs were collected across 13 marshes in the Atlantic coast of the United States. They were measured for body size and their latitude was recorded.
+This folder contains raw data of the Fiddler crab project in .csv format (i.e., 'Du_FiddlerCrabProject_Data-raw_V0.csv'). 
+
+Dr. David Johnson collected ~30 male, adult Minuca pugnax from thirteen marshes from Florida to Massachusetts and measured their carapace width with calipers. Water and air temperature data were collected from monitoring programs (i.e., LTER, NERR sites), nearby weather stations, and ocean buoys for 2016.
+
+For more information on the METADATA of this dataset, please see DATA-DICTIONARY.Rmd in this folder (i.e., 00_rawdata).
