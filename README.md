@@ -4,7 +4,7 @@
 
 **Created by:** Sherry Du
 
-**Date updated:** Sept 22, 2025
+**Date updated:** Sept 26, 2025
 
 **Updated by:** Sherry Du
 
@@ -21,7 +21,9 @@ This project was completed in fulfillment of the requirements of Productivity an
 | 02_outdata/     | Contains all cleaned data files                     |
 | 03_figures/     | Contains all plots and figures of the data          |
 | 04_manuscripts/ | Contains all versions of manuscript drafts          |
-| 04_manuscripts/rendered | Contains final version of manuscript in futureproof format       |
+| 04_manuscripts/bibliography | Contains all files related to the bibliography         |
+| 04_manuscripts/ms_figures | Contains final plots and figures of the data to be included in the manuscript        |
+| 04_manuscripts/ms_rendered | Contains final version of manuscript in futureproof format (pdf)      |
 | 05_prereg | Contains pre-registration files       |
 
 ## File naming conventions:
