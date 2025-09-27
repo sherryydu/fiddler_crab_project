@@ -12,10 +12,6 @@ affiliation:
     institution : University of Toronto, Department of Ecology and Evolutionary Biology
 
 output: prereg::prereg_pdf
-
-knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "rendered") })
-
 ---
 
 # Study Information

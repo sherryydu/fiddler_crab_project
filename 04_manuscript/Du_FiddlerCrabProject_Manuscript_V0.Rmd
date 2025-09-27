@@ -4,7 +4,7 @@ author: "Sherry Du"
 date: "2025-09-11"
 output: pdf_document
 knit: (function(inputFile, encoding) {
-  rmarkdown::render(inputFile, encoding = encoding, output_dir = "rendered") })
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "ms_rendered") })
 bibliography: ["bibliography/references.bib","bibliography/grateful-refs.bib"]
 csl: "bibliography/ecology.csl"
 ---
