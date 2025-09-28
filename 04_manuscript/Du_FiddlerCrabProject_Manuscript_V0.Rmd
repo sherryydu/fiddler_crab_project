@@ -6,8 +6,8 @@ output: pdf_document
 fig_caption: true
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "ms_rendered") })
-bibliography: ["bibliography/references.bib","bibliography/grateful-refs.bib"]
-csl: "bibliography/ecology.csl"
+bibliography: ["bibliography/Du_FiddlerCrabProject_Bib-references_V0.bib","bibliography/Du_FiddlerCrabProject_Bib-grateful-refs_V0.bib"]
+csl: "bibliography/Du_FiddlerCrabProject_Bib-ecology_V0.csl"
 
 ---
 
