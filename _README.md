@@ -8,9 +8,11 @@
 
 **Updated by:** Sherry Du
 
-This project was completed in fulfillment of the requirements of Productivity and Reproducibility in Ecology and Evolution 2025.
+## Project description/purpose
 
-This root directory ('fiddlercrabproject') contains many folders and files. For more information, please see information below.
+I investigated the effects of latitude on the body size of male Atlantic marsh fiddler crabs (*Minuca pugnax*). This project was completed in fulfillment of the requirements of Productivity and Reproducibility in Ecology and Evolution 2025.
+
+This root directory ('fiddlercrabproject') contains folders and files related to this project to help increase productivity, transparency, and reproducibility.
 
 ## File structure:
 
@@ -21,19 +23,20 @@ This root directory ('fiddlercrabproject') contains many folders and files. For 
 | 01_scripts/r_scripts/ | R script files |
 | 01_scripts/RMD_scripts/ | Master script |
 | 02_outdata/     | Contains all cleaned data files                     |
-| 03_figures/     | Contains all plots and figures of the data          |
+| 03_figures/     | Contains all drafted plots and figures of the data          |
 | 04_manuscripts/ | Contains all versions of manuscript drafts          |
 | 04_manuscripts/bibliography | Contains all files related to the bibliography         |
 | 04_manuscripts/ms_figures | Contains final plots and figures of the data to be included in the manuscript        |
-| 04_manuscripts/ms_rendered | Contains final version of manuscript in futureproof format (pdf)      |
+| 04_manuscripts/ms_rendered | Contains final version of manuscript in futureproof format (.pdf)      |
 | 05_prereg | Contains pre-registration files       |
 
 ## File naming conventions:
 
 | File Type                   | Naming Convention                                        |
 | --------------------------- | -------------------------------------------------------- |
-| Data | LastName_Project_Data-file-description_Version.file-type         |
-| Figures and plots           | LastName_Project_Figure-title_Version.file-type          |
-| Analysis                    | LastName_Project_Analysis_Version.file-type              |
-| Manuscript                       | LastName_Project_Manuscript_Version.file-type |
-| Pre-registration                       | LastName_Project_Preregistration_Version.file-type |
+| Data | LastName_Project_Data-file-description_Version#.file-type         |
+| Scripts                    | LastName_Project_Script-file-description_Version#.file-type              |
+| Figures and plots           | LastName_Project_Figure-title_Version#.file-type          |
+| Manuscript                       | LastName_Project_Manuscript_Version#.file-type |
+| Bibliography                      | LastName_Project_References_Version#.file-type |
+| Pre-registration                       | LastName_Project_Preregistration_Version#.file-type |

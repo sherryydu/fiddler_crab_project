@@ -1,0 +1,35 @@
+# Data Directory for Fiddler Crab Project
+
+**Date created:** Sept 4, 2025
+
+**Created by:** Sherry Du
+
+**Date updated:** Sept 27, 2025
+
+**Updated by:** Sherry Du
+
+This folder contains raw data of the Fiddler crab project in .csv format (i.e., 'Du_FiddlerCrabProject_Data-raw_V0.csv'), and the accompanying _DATA-DICTIONARY.Rmd describing the metadata associated with this dataset. For more information on the METADATA of this dataset, please see DATA-DICTIONARY.Rmd in this folder (i.e., 00_rawdata).
+
+**Data Collection/Methods**
+
+Dr. David Johnson collected ~30 male, adult Minuca pugnax from thirteen marshes from Florida to Massachusetts and measured their carapace width with calipers. Water and air temperature data were collected from monitoring programs (i.e., LTER, NERR sites), nearby weather stations, and ocean buoys for 2016.
+
+We extracted the 'pie_crab' data from the 'lterdatasampler' package in R. For the R script, please see the 'Du_FiddlerCrabProject_Script-acquire-raw-data_V0.R" script in the '/01_scripts' directory under the root directory 'fiddler_crab_project'.
+
+**Date range for data collection:**
+
+The data in this dataset was collected from July 24 - August 13, 2016.
+
+**Data collectors:**
+
+These data were collected by Dr. David Johnson from the Virginia Institute of Marine Science.
+
+**Location of data collection:**
+
+This data was collected across 13 salt marsh sites in the Atlantic coast of the United States.
+
+**Citation of data:**
+
+Johnson, D. 2019. Fiddler crab body size in salt marshes from Florida to Massachusetts, USA at PIE and VCR LTER and NOAA NERR sites during summer 2016. ver 1. Environmental Data Initiative. doi:10.6073/pasta/4c27d2e778d3325d3830a5142e3839bb
+
+For more information, please also see https://lter.github.io/lterdatasampler/reference/pie_crab.html.
