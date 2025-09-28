@@ -1,4 +1,4 @@
-# Data Directory for Fiddler Crab Project
+# 00_rawdata Directory for Fiddler Crab Project
 
 **Date created:** Sept 4, 2025
 
