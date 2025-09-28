@@ -8,7 +8,7 @@
 
 **Updated by:** Sherry Du
 
-This folder contains raw data of the Fiddler crab project in .csv format (i.e., 'Du_FiddlerCrabProject_Data-raw_V0.csv'), and the accompanying _DATA-DICTIONARY.Rmd describing the metadata associated with this dataset. For more information on the METADATA of this dataset, please see DATA-DICTIONARY.Rmd in this folder (i.e., 00_rawdata).
+This folder contains raw data of the Fiddler crab project in .csv format (i.e., 'Du_FiddlerCrabProject_Data-raw_V0.csv'), and the accompanying DATA-DICTIONARY.Rmd describing the metadata associated with this dataset. For more information on the METADATA of this dataset, please see DATA-DICTIONARY.Rmd in this folder (i.e., 00_rawdata).
 
 **Data Collection/Methods**
 
