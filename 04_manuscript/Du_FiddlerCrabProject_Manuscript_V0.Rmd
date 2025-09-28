@@ -1,12 +1,14 @@
 ---
 title: "Investigating fiddler crabs"
 author: "Sherry Du"
-date: "2025-09-11"
+date: "2025-09-27"
 output: pdf_document
+fig_caption: true
 knit: (function(inputFile, encoding) {
   rmarkdown::render(inputFile, encoding = encoding, output_dir = "ms_rendered") })
 bibliography: ["bibliography/references.bib","bibliography/grateful-refs.bib"]
 csl: "bibliography/ecology.csl"
+
 ---
 
 ```{r setup, include=FALSE}
@@ -18,15 +20,19 @@ library(tidyverse)
 library(lterdatasampler)
 library(grateful)
 library(ggplot2)
+library(lme4)
+library(tidyverse)
+library(kableExtra)
+library(broom)
 ```
 
 # Introduction
 
-This is about Atlantic marsh fiddler crab (*Minuca pugnax*) study based in the Plum Island Ecosystem LTER network [@johnsonFiddlerCrabMinuca2019].
+This is about Atlantic marsh fiddler crab (*Minuca pugnax*) study based in the Plum Island Ecosystem LTER network [@johnsonFiddlerCrabMinuca2019]. They're super cool and we wanted to investigate Bergmann's rule on this study system.
 
 # Methods
 
-Here is an in-text citation [@horstLterdatasamplerEducationalDataset2023]
+@johnsonFiddlerCrabMinuca2019 collected approximately 30 male crabs each at 13 different salt marshes along the United States Atlantic coast in summer 2016. The carapace of each crab was measured as an indicator of their body size. The researchers also collected data on air temperature, surface water temperature, and the latitude of each collection.
 
 ## Field sites
 
@@ -34,26 +40,33 @@ The field site was in the Atlantic coast of the United States [@johnsonFiddlerCr
 
 ## Data analysis
 
-We used @base's RStudio and the multiple \$ packages for data analysis [@janitor; @renv; @tidyverse].
+We used @base's RStudio and the multiple \$ packages for data analysis [@janitor; @renv; @tidyverse]. We used data from the lterdatasampler package on R [@horstLterdatasamplerEducationalDataset2023]. Specifically, we used the 'pie_crab' dataset.
 
-```{r message=FALSE,warning=FALSE}
-View(pie_crab)
-
-getwd()
-
-a <- ggplot(data=pie_crab) +geom_point(aes(x=latitude,y=size,color=site))
-```
+We investigated differences in size across latitude using a linear model.
 
 # Results
 
-```{r}
+```{r stats}
+glm(size~latitude,data=pie_crab) %>%
+  tidy() %>%
+  kable(
+    caption = "Summary of linear regression on the effect of latitude on fiddler crab body size in the Atlantic coast of the United States in 2016.",
+    col.names = c("Predictor", "B", "SE", "t", "p"),
+    digits = c(0, 2, 3, 2, 3)
+  )
+```
+
+```{r message=FALSE, warning=FALSE}
+a <- ggplot(data=pie_crab) +geom_point(aes(x=latitude,y=size,color=site))
 ggsave("./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png", a)
 ```
 
-![Fiddler crab body size across latitude and site](./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png).
+Overall, we found that as latitude increases, the size of the Altantic fiddler crabs also significantly increases (Linear regression; $\beta$ ± SE = 0.48512 ± 0.03359; *p* < 0.0001; **Fig. 1**; **Table 1**). 
+
+![Changes in fiddler crab body size across latitude in the Atlantic Coast of the United States from summer 2016. Each color represents a specific salt marsh where the crabs were sampled.](./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png)
 
 # Discussion
 
-Overall, we found that as latitude increases, the size of the crabs also increases.
+Our study aimed to examine the effect of latitude on the body size of Atlantic fiddler crabs. Importantly, we found that size increases as latitude increases. This supports Bergmann's rule. 
 
 # References
