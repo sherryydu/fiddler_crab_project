@@ -38,5 +38,5 @@ This root directory ('fiddlercrabproject') contains folders and files related to
 | Scripts                    | LastName_Project_Script-file-description_Version#.file-type              |
 | Figures and plots           | LastName_Project_Figure-title_Version#.file-type          |
 | Manuscript                       | LastName_Project_Manuscript_Version#.file-type |
-| Bibliography                      | LastName_Project_References_Version#.file-type |
+| Bibliography                       | LastName_Project_Bib-file-description_Version#.file-type |
 | Pre-registration                       | LastName_Project_Preregistration_Version#.file-type |
