@@ -36,7 +36,7 @@ LatvsSize <- ggplot(data=CrabData) +geom_point(aes(x=latitude,y=size))
 ggsave("../../03_figures/Du_FiddlerCrabProject_Figure-2-LatvsSize_V0.png", LatvsSize)
 
 LatvsSizebyTemp <- ggplot(data=CrabData) +geom_point(aes(x=latitude,y=size,color=air_temp))
-ggsave("../../03_figures/Du_FiddlerCrabProject_Figure-3-LatvsSizebyTempe_V0.png", LatvsSizebyTemp)
+ggsave("../../03_figures/Du_FiddlerCrabProject_Figure-3-LatvsSizebyTemp_V0.png", LatvsSizebyTemp)
 ```
 
 
