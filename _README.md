@@ -10,6 +10,8 @@
 
 This project was completed in fulfillment of the requirements of Productivity and Reproducibility in Ecology and Evolution 2025.
 
+This root directory ('fiddlercrabproject') contains many folders and files. For more information, please see information below.
+
 ## File structure:
 
 | Directory       | Description                                         |
