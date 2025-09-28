@@ -1,13 +1,10 @@
----
-title: "DATA-DICTIONARY"
-output: html_document
----
+# DATA-DICTIONARY for rawdata of Fiddler Crab Project
 
 **Date Created:** September 12, 2025
 
 **Created by:** Sherry Du
 
-**Date Updated:** September 25, 2025
+**Date Updated:** September 27, 2025
 
 **Updated by:** Sherry Du
 
@@ -15,25 +12,27 @@ These data were collected by Dr. David Johnson from the Virginia Institute of Ma
 
 **Description of the data: Du_FiddlerCrabProject_Data-raw_V0.csv**
 
-This file contains 9 variables and 392 observations to fiddler crabs from 13 marshes across the Atlantic coastal USA in July - August 2016. This data has been cleaned, but not been analyzed.
+This file contains 9 variables and 392 observations of male Atlantic marsh fiddler crabs (*Minuca pugnax*) from 13 salt marshes across the Atlantic coastal USA from July - August 2016 in a .csv format. Body size was recorded for each crab, as well as other abiotic factors and the locations. This data has been cleaned, but not been analyzed.
 
 **Variable descriptions:**
 
+The following variable descriptions were obtained from the metadata information source (see citation below).
+
 * *date:* date (ISO standard: YYYY-MM-DD) describing the time of collection of each crab.
 
-* *latitude:* continuous numeric value describing the location of each sampled crab (degree).
+* *latitude:* continuous numeric variable describing the location of each sampled crab (degree).
 
 * *site:* categorical variable of the acronym of the research site of where each crab was sampled; (abbreviation of site name); GTM=Guana Tolomoto Matanzas NERR | SI=Sapelo Island NERR |NIB=North Inlet Winyah Bay NERR | ZI=Zeke's Island NERR | RC=Rachel Carson NERR | VCR=Virginia Coastal Reserve LTER | DB=Delaware Bay NERR |JC=Jacques Cousteau NERR | CT=Sixpenny Island - Connecticut |NB=Narragansett Bay NERR | CC=Cape Cod | BC=Bare Cove Park | PIE=Plum Island Estuary - West Creek.
 
-* *size:* continuous numeric value showing the carapace width of each crab (millimeter).
+* *size:* continuous numeric variable showing the carapace width of each crab (millimeter).
 
-* *air_temp:* continuous numeric value showing the mean annual air temperature (degrees Celsius).
+* *air_temp:* continuous numeric variable showing the mean annual air temperature (degrees Celsius).
 
-* *air_temp_sd:* continuous numeric value showing the standard deviation of the mean annual air temperature (degrees Celsius).
+* *air_temp_sd:* continuous numeric variable showing the standard deviation of the mean annual air temperature (degrees Celsius).
 
-* *water_temp:* continuous numeric value showing the mean annual water temperature degrees Celsius), water temperature was collected at the surface (i.e., <1 meter).
+* *water_temp:* continuous numeric variable showing the mean annual water temperature (degrees Celsius), water temperature was collected at the surface (i.e., <1 meter).
 
-* *water_temp_sd:* continuous numeric value showing the standard deviation of the mean annual water temperature (degrees Celsius).
+* *water_temp_sd:* continuous numeric variable showing the standard deviation of the mean annual water temperature (degrees Celsius).
 
 * *name:* categorical variable showing the full name of the research site; LTER, Long-Term Ecological Research site; NERR, National Estuarine Research Reserve.
 
