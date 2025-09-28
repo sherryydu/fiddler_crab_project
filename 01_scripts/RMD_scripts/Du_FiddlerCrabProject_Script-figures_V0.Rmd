@@ -1,7 +1,7 @@
 ---
-title: "Make figures"
+title: "Script for figures and plots"
 author: "Sherry Du"
-date: "2025-09-13"
+date: "2025-09-27"
 output: pdf_document
 ---
 
@@ -11,16 +11,32 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Packages
 
-```{r}
+```{r packages}
 library(ggplot2)
 ```
 
+## Explore data
+
+Note, you must first import data through /01_scripts/r_scripts/Du_FiddlerCrabProject_Script-acquire-raw-data_V0.R.
+
+```{r explore}
+View(CrabData)
+str(CrabData)
+head(CrabData)
+```
 
 ## Make Figures
 
 ```{r figures}
 getwd()
+LatvsSizebySite <- ggplot(data=CrabData) +geom_point(aes(x=latitude,y=size,color=site))
+ggsave("../../03_figures/Du_FiddlerCrabProject_Figure-1-LatvsSizebySite_V0.png", LatvsSizebySite)
 
+LatvsSize <- ggplot(data=CrabData) +geom_point(aes(x=latitude,y=size))
+ggsave("../../03_figures/Du_FiddlerCrabProject_Figure-2-LatvsSize_V0.png", LatvsSize)
+
+LatvsSizebyTemp <- ggplot(data=CrabData) +geom_point(aes(x=latitude,y=size,color=air_temp))
+ggsave("../../03_figures/Du_FiddlerCrabProject_Figure-3-LatvsSizebyTempe_V0.png", LatvsSizebyTemp)
 ```
 
 
