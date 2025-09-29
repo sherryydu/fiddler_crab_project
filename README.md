@@ -12,7 +12,7 @@
 
 I investigated the effects of latitude on the body size of male Atlantic marsh fiddler crabs (*Minuca pugnax*). This project was completed in fulfillment of the requirements of Productivity and Reproducibility in Ecology and Evolution 2025.
 
-This root directory ('fiddlercrabproject') contains folders and files related to this project to help increase productivity, transparency, and reproducibility.
+This root directory ('fiddler_crab_project') contains folders and files related to this project to help increase productivity, transparency, and reproducibility.
 
 ## File structure:
 
