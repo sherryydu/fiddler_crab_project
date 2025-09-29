@@ -40,14 +40,22 @@ The field site was in the Atlantic coast of the United States [@johnsonFiddlerCr
 
 ## Data analysis
 
-We used @base's RStudio and the multiple \$ packages for data analysis [@janitor; @renv; @tidyverse]. We used data from the lterdatasampler package on R [@horstLterdatasamplerEducationalDataset2023]. Specifically, we used the 'pie_crab' dataset and exported that as a .csv file.
+We used @base's RStudio and the multiple \$ packages for data analysis [@janitor; @renv; @tidyverse]. We used data from the lterdatasampler package on R [@horstLterdatasamplerEducationalDataset2023]. Specifically, we used the 'pie_crab' dataset and exported that as a .csv file, and imported it back as a dataframe called 'CrabData'.
 
 We investigated differences in size across latitude using a linear model.
+
+```{r importData}
+# Import data
+CrabData <- 
+  read.table('../00_rawdata/Du_FiddlerCrabProject_Data-raw_V0.csv', 
+             header=TRUE, stringsAsFactors=TRUE, sep=",", na.strings=c(""," ","NA"), dec=".", 
+             strip.white=TRUE)
+```
 
 # Results
 
 ```{r stats}
-glm(size~latitude,data=pie_crab) %>%
+glm(size~latitude,data=CrabData) %>%
   tidy() %>%
   kable(
     caption = "Summary of linear regression on the effect of latitude on fiddler crab body size in the Atlantic coast of the United States in 2016.",
@@ -56,8 +64,8 @@ glm(size~latitude,data=pie_crab) %>%
   )
 ```
 
-```{r message=FALSE, warning=FALSE}
-a <- ggplot(data=pie_crab) +geom_point(aes(x=latitude,y=size,color=site))
+```{r figure, message=FALSE, warning=FALSE}
+a <- ggplot(data=CrabData) +geom_point(aes(x=latitude,y=size,color=site))
 ggsave("./ms_figures/Du_FiddlerCrabProject_Figure-1_V1.png", a)
 ```
 
