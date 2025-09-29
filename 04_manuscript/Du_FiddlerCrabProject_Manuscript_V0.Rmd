@@ -40,7 +40,7 @@ The field site was in the Atlantic coast of the United States [@johnsonFiddlerCr
 
 ## Data analysis
 
-We used @base's RStudio and the multiple \$ packages for data analysis [@janitor; @renv; @tidyverse]. We used data from the lterdatasampler package on R [@horstLterdatasamplerEducationalDataset2023]. Specifically, we used the 'pie_crab' dataset.
+We used @base's RStudio and the multiple \$ packages for data analysis [@janitor; @renv; @tidyverse]. We used data from the lterdatasampler package on R [@horstLterdatasamplerEducationalDataset2023]. Specifically, we used the 'pie_crab' dataset and exported that as a .csv file.
 
 We investigated differences in size across latitude using a linear model.
 
